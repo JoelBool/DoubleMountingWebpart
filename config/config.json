@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "remounting-re-rendering-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remountingReRendering/ReMountingReRenderingWebPart.js",
+          "manifest": "./src/webparts/remountingReRendering/ReMountingReRenderingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReMountingReRenderingWebPartStrings": "lib/webparts/remountingReRendering/loc/{locale}.js"
+  }
+}

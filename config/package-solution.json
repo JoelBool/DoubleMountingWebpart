@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "remounting-re-rendering-webpart-client-side-solution",
+    "id": "978b4772-1888-42a0-b364-85d4aa24261b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "remounting-re-rendering-webpart description"
+      },
+      "longDescription": {
+        "default": "remounting-re-rendering-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "remounting-re-rendering-webpart Feature",
+        "description": "The feature that activates elements of the remounting-re-rendering-webpart solution.",
+        "id": "4a0b9720-4433-4940-b39a-0540581f2054",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/remounting-re-rendering-webpart.sppkg"
+  }
+}
